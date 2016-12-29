@@ -6,3 +6,11 @@ For commiting files From Github Windows,
 3] Enter the Summary and description.
 4] Click "Commit to Master"
 5] Click "Sync" button.
+
+#Commiting files in command line
+
+git init
+git add {filename}
+git commit -m " "
+git remote add orgin "{Url of git repo}"
+git push -u orgin master
